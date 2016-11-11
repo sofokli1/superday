@@ -16,7 +16,7 @@ class TimelineCell : UITableViewCell
     }()
     
     @IBOutlet private weak var lineView : UIView!
-    @IBOutlet private weak var elapsedTime : UILabel!
+    @IBOutlet weak var elapsedTime : UILabel!
     @IBOutlet private weak var indicatorDot : UIView!
     @IBOutlet private weak var categoryButton : UIButton!
     @IBOutlet private weak var slotDescription : UILabel!
